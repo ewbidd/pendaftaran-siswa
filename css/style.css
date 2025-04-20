@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f8fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+nav {
+    background-color: #0d6efd;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form textarea,
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="radio"] {
+    margin-right: 5px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0b5ed7;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f1f1f1;
+}
+
+a.edit, a.hapus {
+    padding: 5px 10px;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+a.edit {
+    background-color: #28a745;
+}
+
+a.hapus {
+    background-color: #dc3545;
+}
+
+.home-page {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.home-page p {
+    font-size: 18px;
+    color: #444;
+    margin: 10px 0;
+}
+
+.home-page ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.home-page ul li {
+    margin: 15px 0;
+}
+
+.home-page a.menu-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #0d6efd;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.home-page a.menu-button:hover {
+    background-color: #0b5ed7;
+}
