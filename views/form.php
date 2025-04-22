@@ -24,5 +24,5 @@
 
     <button type="submit">Daftar</button>
 </form>
-<a href="../index.php">Kembali</a>
+<a href="index.php" class="btn-kembali" style="display: inline-block; margin-top: 20px; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 8px; transition: background-color 0.3s ease; font-weight: bold;" onmouseover="this.style.backgroundColor='#45a049'" onmouseout="this.style.backgroundColor='#4CAF50'">⬅ Kembali</a>
 <?php include '../views/footer.php'; ?>
