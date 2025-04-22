@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Pendaftaran Siswa Baru</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <base href="/pendaftaran-siswa/">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <nav>
