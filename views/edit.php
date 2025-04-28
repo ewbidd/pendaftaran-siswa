@@ -1,5 +1,5 @@
 <?php
-include '../config/database.php';
+include '../config/koneksi.php';
 include 'header.php';
 
 $id = $_GET['id'];
@@ -8,7 +8,7 @@ $data = $result->fetch_assoc();
 ?>
 
 <h2>Edit Data</h2>
-<form action="../process/update.php" method="POST">
+<form action="process/update.php" method="POST">
     <input type="hidden" name="id" value="<?= $data['id'] ?>">
 
     <label>Nama:</label><br>

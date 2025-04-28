@@ -1,5 +1,5 @@
 <?php
-include '../config/database.php';
+include '../config/koneksi.php';
 
 $id = $_POST['id'];
 $nama = $_POST['nama'];
